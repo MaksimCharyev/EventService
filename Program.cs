@@ -17,8 +17,6 @@ namespace EventService
             {
                 app.UseExceptionHandler("/Error");
             }
-            //app.UseStaticFiles();
-
             app.UseRouting();
             app.MapControllers();
             app.UseAuthorization();
